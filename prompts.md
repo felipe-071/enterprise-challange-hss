@@ -1,0 +1,270 @@
+# Histórico de prompts do projeto
+
+## 2026-10-23 - Ícone de escudo semelhante à referência
+
+Pedido: substituir o ícone da parte adicionada por um ícone mais bonito e parecido com o escudo da referência.
+
+Aplicação: criado e aplicado um SVG exclusivo de escudo roxo contornado com check, sem alteração do botão ou do layout.
+
+## 2026-10-23 - CTA e frase junto à ilustração de "Como funciona?"
+
+Pedido: adicionar o `ShimmerButton`, uma ilustração e uma frase de Lorem Ipsum conforme referência, sem modificar o conteúdo existente.
+
+Aplicação: ilustração existente mantida; botão "Conheça a plataforma", ícone de escudo e frase Lorem Ipsum adicionados abaixo dela.
+
+## 2026-10-23 - Tamanho dos spans abaixo dos H2 nas seções
+
+Pedido: aplicar `0.95rem` em desktop a todos os spans logo abaixo dos H2 de todas as seções; corrigir o tamanho na seção "Como funciona?".
+
+Aplicação: os spans introdutórios de "Como funciona?" e do formulário de demonstração usam `0.95rem` a partir de 901px, mantendo os tamanhos mobile.
+
+## 2026-10-23 - Tamanho do texto introdutório de "Como funciona?"
+
+Pedido: deixar todos os spans logo abaixo dos h2 com tamanho `0.95rem` para desktop.
+
+Aplicação: os dois spans do texto introdutório abaixo do H2 da seção "Como funciona?" receberam `lg:text-[0.95rem]`; estilos de telas menores preservados.
+
+## 2026-10-23 - Alternância mobile nos diferenciais
+
+Pedido: adicionar botões no mobile para alternar entre "Dúvidas comuns" e "Com a HSS", preservando o design existente.
+
+Aplicação: seção mobile passou a exibir um painel por vez por meio de abas acessíveis; cartões, painéis e comparação desktop foram mantidos.
+
+## 2026-10-22 - Rótulos visíveis no formulário
+
+Pedido: adicionar os labels correspondentes aos campos do formulário.
+
+Aplicação: labels visíveis para Nome, Empresa, Cargo, E-mail, Telefone e Mensagem, mantendo as classes e o layout dos campos existentes.
+
+## 2026-10-22 - Campos do formulário conforme referência
+
+Pedido: alterar os campos do formulário de demonstração conforme a captura enviada.
+
+Aplicação: formulário com nome, empresa, cargo, e-mail, telefone e mensagem; depois foi preservada a estilização original (campos em uma coluna, placeholders e botão roxo), alterando somente os campos e o conteúdo dos placeholders.
+
+## 2026-10-22 - Diferenciais como quebra de objeções
+
+Pedido: usar a imagem como insumo para criar estrategicamente uma seção de quebra de objeções com cerca de seis diferenciais, sem copiar o layout da imagem e preservando os principais conceitos visuais da comparação anterior.
+
+Aplicação: retomados os painéis de dúvidas e respostas, com seis pares alinhados e responsivos; conteúdo cobre IA com supervisão humana, dados, integrações, governança, implantação e retorno estimado com premissas claras.
+
+## 2026-10-22 - Diferenciais da plataforma
+
+Pedido: refazer a seção de diferenciais considerando os pontos da imagem de referência.
+
+Aplicação: substituída a comparação de dúvidas e benefícios por quatro cartões sobre IA com supervisão humana, integridade dos dados, interoperabilidade e governança; layout responsivo e documentação atualizada.
+
+## 2026-10-22 - Alinhamento dos textos das etapas de credenciamento
+
+Pedido: refazer resumo, texto e demais descrições das etapas para que fiquem em conformidade com o título de cada uma.
+
+Aplicação: revisados os textos de envio de documentos, análise com apoio de tecnologia, validação de credenciais, resultado do credenciamento e monitoramento contínuo; documentação da landing atualizada.
+
+## 2026-10-20 - Passos de gastos do curso e atendimentos na carreira
+
+Pedido: depois de "Qual perfil de formação se parece com o seu?", mostrar uma janela para ajustar os gastos do curso e depois outra para os dados dos atendimentos do médico.
+
+Aplicação: a calculadora de carreira passou a ter três passos (formação, gastos do curso, seus atendimentos); o ganho líquido mensal é calculado a partir dos atendimentos.
+
+## 2026-10-20 - Refinamento visual da calculadora e do ADM
+
+Pedido: aplicar a proposta de design (régua como destaque, menos elevação, arredondamento por profundidade, sem textos com ponto no meio) na calculadora e no Portal ADM.
+
+Aplicação: régua do resultado ampliada, comparativos em linhas, hover simplificado, raios hierarquizados, cores de texto com contraste AA e menor corpo de texto em 13 px.
+
+## 2026-10-20 - Troca da calculadora e do Portal ADM
+
+Pedido: trocar a calculadora pela do projeto `D:\bss_next\challenge-hss-fiap-1twdor-2025`, estilizá-la com as cores e bordas deste projeto e trazer o Portal ADM referente à calculadora.
+
+Aplicação: componentes, tipos, serviços, dados e hooks da calculadora foram trazidos junto com o editor de cenários do ADM, a IA de cenários (Gemini) e a API/migration de cenários no D1; as cores e bordas foram mapeadas para a paleta deste projeto e a aba de contatos do ADM foi mantida.
+
+## 2026-10-19 - Ajuste de legibilidade dos cartões comparativos
+
+Pedido: aumentar para aproximadamente 14 px os parágrafos e títulos `h4` dos cartões.
+
+Aplicação: tipografia dos cartões e textos auxiliares dos painéis ajustada para 14 px, com mais altura mínima nos cartões para acomodar linhas adicionais.
+
+## 2026-10-19 - Comparativo visual de dúvidas e benefícios
+
+Pedido: aproximar a seção comparativa da referência visual anexada sem modificar o `h2`.
+
+Aplicação: os painéis receberam fundos suaves, cartões individuais e setas de correspondência; o `h2` foi preservado e uma descrição complementar foi adicionada abaixo dele.
+
+## 2026-10-16 - Estilos Tailwind no comparativo Sem HSS / Com HSS
+
+Pedido: converter os estilos e classes CSS do componente comparativo conforme `styles.css`.
+
+Aplicação: os painéis Sem HSS / Com HSS e seus itens receberam classes Tailwind responsivas com reutilização dos ícones SVG locais; o tablist sem interação foi eliminado e os cartões empilham em telas menores.
+
+## 2026-10-16 - Estilos Tailwind na seção Como funciona
+
+Pedido: configurar a seção "Como funciona?" com os estilos de `styles.css`, convertendo-os para classes Tailwind e removendo os seletores específicos do CSS separado.
+
+Aplicação: regras visuais e responsivas da seção foram migradas para o componente, mantendo a âncora `#como-funciona` e removendo suas regras do CSS separado.
+
+## 2026-10-15 - Correção das opções do menu mobile
+
+Pedido: corrigir o desaparecimento das opções de navegação no menu mobile.
+
+Aplicação: removido o filtro incorreto que descartava todos os links; o menu mobile passa a usar a mesma lista de opções do desktop.
+
+## 2026-06-08 - Ajustes finais de interface, GitHub e deploy
+
+Pedido: adicionar GitHub no footer, corrigir o destravamento da calculadora para não rolar do topo, revisar ortografia/mojibakes, publicar no GitHub na main e fazer deploy Cloudflare main.
+
+Aplicação: o footer recebeu link para o repositório GitHub, a calculadora deixou de usar reposicionamento via `body: fixed` no travamento, os ajustes visuais recentes foram preservados e a validação local foi executada antes da publicação.
+
+## 2026-06-08 - Cards de benefícios sem números
+
+Pedido: remover a numeração dos cards de benefícios, colocar os ícones no topo direito como marca d'água translúcida e diminuir 20% da altura dos cards.
+
+Aplicação: a seção de benefícios foi ajustada para exibir os ícones como marca d'água translúcida no canto superior direito, retirar os números visíveis e compactar o padding/altura dos cards em desktop e mobile.
+
+## 2026-05-22 - Commit main e deploy Cloudflare
+
+Pedido: fazer os commits, publicar na branch `main` do GitHub e fazer deploy `main` no Cloudflare.
+
+Aplicação: a rodada incluiu validação com `npm install`, TypeScript estrito, build, commit na `main`, push para GitHub e deploy de produção no Cloudflare Pages.
+
+## 2026-05-22 - Link Diferencial no cabeçalho
+
+Pedido: colocar no header o item "Diferencial" levando para "Sem HSS • processos tradicionais".
+
+Aplicação: o cabeçalho recebeu o link `Diferencial` apontando para `#processo-sem-hss`, mantendo a ordem Benefícios, Como funciona?, Diferencial e Depoimentos.
+
+## 2026-05-22 - Alinhamento da produção Cloudflare
+
+Pedido: informar que `https://hssfiap-chalange-1twdor-2025.pages.dev/` estava diferente do preview `https://8f571eb8.hssfiap-chalange-1twdor-2025.pages.dev`.
+
+Aplicação: a branch `main` recebeu os commits da branch de ajuste para que o deploy de produção da URL principal fique alinhado ao preview validado.
+
+## 2026-05-22 - Revisão de ortografia, branch e deploy
+
+Pedido: fazer um check de ortografia e mojibakes, criar branch no GitHub e fazer deploy no Cloudflare.
+
+Aplicação: a documentação recebeu correções pontuais de acentuação, o README foi alinhado ao projeto Cloudflare configurado, a checagem de mojibake comum foi aprovada e a branch `ajustes-ortografia-hero-comparativo-v6` foi publicada com deploy de preview no Cloudflare.
+
+## 2026-05-22 - Cards completos no comparativo em 100vh
+
+Pedido: aumentar/ajustar os cards do comparativo para caberem os quatro em 100vh, usando os textos completos de Etapa tradicional 01 a 04 e Ganho digital 01 a 04.
+
+Aplicação: os cards laterais passaram a usar título e descrição completos, o componente separa título/descrição automaticamente e os cards animados/informativos foram compactados para caber no palco desktop de 100vh.
+
+## 2026-05-22 - Reposicionamento da médica no hero
+
+Pedido: corrigir a imagem da médica, que estava errada no hero.
+
+Aplicação: no desktop, a imagem saiu do alinhamento inferior do grid e passou a ficar posicionada no lado direito do hero, centralizada verticalmente e com escala maior; no mobile, a imagem continua no fluxo normal.
+
+## 2026-05-22 - Hero com médica e métricas no padrão Figma
+
+Pedido: arrumar a imagem da médica e as informações do hero para ficar como a imagem do Figma, usando `33+`, `Dias economizados`, `73%`, `Redução estimada`, `R$ 504.000` e `Prejuízo mensal evitável`.
+
+Aplicação: a imagem da médica foi ampliada e deslocada no bloco direito; o card de métricas passou a usar valores fixos e removeu truncamento para mostrar `R$ 504.000` por completo.
+
+## 2026-05-22 - Quebra fixa do título do hero
+
+Pedido: garantir que o título do hero fique com a quebra exata em três linhas: "Digitalize e simplifique", "o CREDENCIAMENTO" e "MÉDICO".
+
+Aplicação: a coluna do texto foi ampliada no desktop, as linhas longas receberam `whitespace-nowrap` e a escala em telas pequenas foi reduzida para evitar quebras internas.
+
+## 2026-05-22 - Textos do comparativo Sem HSS e Com HSS
+
+Pedido: usar os textos das imagens enviadas nas partes Sem HSS e Com HSS, mantendo apenas os textos e preservando as cores e estilos atuais.
+
+Aplicação: os títulos, descrições e itens dos arrays `problemasSemHss`, `informacoesSemHss`, `ganhosComHss` e `informacoesComHss` foram atualizados sem alterar a estrutura visual dos componentes.
+
+## 2026-05-22 - Hero igual à referência visual
+
+Pedido: ajustar o hero para ficar igual à imagem enviada, usando o fundo azul já existente em `medica-hero-hss.png` e quebrando o título em "Digitalize e simplifique / o CREDENCIAMENTO / MÉDICO".
+
+Aplicação: o título do hero passou a ter três linhas controladas, a camada azul artificial foi removida, a máscara da imagem foi retirada e a escala do grid/imagem foi ajustada para preservar o PNG original.
+
+## 2026-05-22 - Revisão de referências, mojibake e pt-BR
+
+Pedido: verificar se havia algo errado no código, algo sem referência, mojibake e problemas de ortografia em pt-BR.
+
+Aplicação: a checagem de imports e variáveis sem uso passou limpa; a classe Tailwind quebrada do hero foi corrigida; os prefixos internos dos textos do comparativo foram removidos; a codificação UTF-8 e a ortografia dos trechos alterados foram revalidadas.
+
+## 2026-05-22 - Menu A11y mobile
+
+Pedido: no mobile, ao abrir o menu de acessibilidade, ocultar o SVG flutuante A11y e destacar o botão de fechar em azul.
+
+Aplicação: o botão flutuante do menu A11y fica invisível e sem eventos no mobile quando o painel está aberto; o botão de fechar recebeu fundo azul, texto branco, sombra e foco visível.
+
+## 2026-05-22 - Reforço responsivo em celulares
+
+Pedido: verificar e ajustar itens que saem da tela em alguns celulares e elementos que não redimensionam corretamente para 100vw.
+
+Aplicação: os cards mobile do comparativo receberam limites e quebra de linha mais fortes, a calculadora deixou de reservar espaço lateral do pino no mobile, selects/botões/wrappers ganharam `min-w-0` e limites de largura, e o formulário de lead foi compactado para telas estreitas.
+
+## 2026-05-21 - Ajuste Samsung S24 e ritmo dos cards
+
+Pedido: corrigir exibição mobile no Samsung S24 em relação à largura da viewport, acelerar a entrada dos cards de "Benefícios da nossa solução" e destacar "Calcule agora o ROI" sem aumentar a fonte.
+
+Aplicação: o hero e o cabeçalho receberam ajustes de largura, espaçamento e escala mobile; os cards de benefícios passaram a aparecer com menos scroll e animação mais rápida; o título da calculadora recebeu destaque visual em formato de pílula mantendo o tamanho de fonte.
+
+## 2026-05-21 - Remoção do bloco Diferencial ADM
+
+Pedido: retirar da landing o bloco Diferencial ADM indicado pelo usuário.
+
+Aplicação: a seção do Diferencial ADM foi removida da landing, o link correspondente saiu do cabeçalho, o componente do bloco foi excluído e a cópia oculta do texto na calculadora também foi limpa.
+
+## 2026-05-21 - Mobile informativo, bloqueio da calculadora, commits e deploy
+
+Pedido: no mobile exibir apenas `informacoesSemHss` e `informacoesComHss`; no PC/notebook, ao fixar a calculadora, impedir a rolagem da página; fazer commits e deploys.
+
+Aplicação: o layout compacto do comparativo passou a renderizar apenas `informacoes`, o travamento da calculadora passou a congelar a posição da página e bloquear wheel, touch e teclas de rolagem, e a documentação foi atualizada antes da validação, commit e deploy.
+
+## 2026-05-21 - Conteúdos distintos no comparativo Sem HSS
+
+Pedido: no bloco "Sem HSS - processo tradicional", separar o conteúdo exibido no lado dos cards do conteúdo exibido no lado da informação, pois os dois lados estavam iguais.
+
+Aplicação: foram criados textos informativos separados em `dadosLanding.ts`, o componente `secao-processo-comparativo.tsx` passou a receber `itens` e `informacoes`, e a documentação foi atualizada para indicar os arrays corretos de cada lado.
+
+## 2026-05-21 - Revisão estrutural e publicação
+
+Pedido: inspecionar o projeto, separar cada parte do site em componentes para facilitar modificações, revisar ortografia global em pt-BR, listar melhorias possíveis, criar README no padrão GitHub, criar repositório, publicar no GitHub, fazer deploy no Cloudflare no projeto `hssfiap-chalange-1twdor-2025` e gerar commit local/remoto.
+
+Aplicação: a landing foi reorganizada em páginas, layout e seções independentes; os textos em pt-BR foram revisados após correção de codificação; a documentação foi atualizada; o fluxo de validação, GitHub e Cloudflare foi iniciado nesta versão.
+
+## 2026-05-21 - Revisão de fluidez, limpeza e deploy
+
+Pedido: verificar a fluidez do projeto, limpar código não usado, revisar ortografia pt-BR e fazer os deploys.
+
+Aplicação: foram preservados os ajustes visuais já aplicados, removidos arquivos e exports sem uso, padronizados comentários, revisados textos ativos em pt-BR, atualizada a documentação e executado novo ciclo de validação, commit, push e deploy.
+
+## 2026-05-21 - Mapa do site e refinamentos de interação
+
+Pedido: criar `docs/map_site_info.md` explicando onde modificar cada parte da página, ajustar o cabeçalho com Portal ADM e efeito no link da calculadora, refinar os blocos Sem HSS/Com HSS, remover o encaixe magnético da calculadora, adicionar botão de pino para travar a calculadora e trocar textos do footer por ícones.
+
+Aplicação: o mapa de edição foi criado, os botões do cabeçalho foram ajustados, o comparativo ganhou cores e ordem solicitadas, a calculadora passou a ter travamento manual em desktop e o footer passou a exibir apenas ícones sociais.
+
+## 2026-05-21 - Calculadora compacta e textos no info project
+
+Pedido: diminuir mais a altura, fontes e campos da calculadora, esconder o header ao travar a calculadora, reduzir "Composição visual" e listar cada texto do site em `doc/info_project_files.md`.
+
+Aplicação: a calculadora recebeu modo compacto, o header passa a ocultar no modo travado, a composição visual foi reduzida e o inventário de textos visíveis foi adicionado à documentação do projeto.
+
+## 2026-05-21 - Responsivo e menu de acessibilidade
+
+Pedido: manter a versão PC/notebook, adaptar tablet/mobile, corrigir a imagem da médica para não ultrapassar o fundo azul claro e adicionar ao portal um menu A11y com todos os recursos informados.
+
+Aplicação: o hero foi ajustado em telas menores, benefícios e comparativo passaram a ter fallback estático em tablet/mobile, foi criado o componente global `MenuAcessibilidade` e adicionadas opções de contraste, fonte, tamanho, espaçamento, cursor, daltonismo, leitura por hover e restauração de padrões.
+
+## 2026-05-21 - Header mobile e modal de explicação
+
+Pedido: no mobile deixar Benefícios, Como funciona?, Diferencial e Depoimentos como menu sanduíche; manter Calculadora ROI e Agendar demonstração no header; reduzir logos; fazer o botão A11y sumir ao rolar e reaparecer em 3 segundos; deixar o modal "!" central, compacto ao texto e fechando ao clicar fora.
+
+Aplicação: o cabeçalho mobile passou a exibir CTAs diretos e menu sanduíche para os links de navegação, os logos foram reduzidos por CSS, o botão A11y ganhou temporização no scroll e o modal de explicação das etapas da calculadora ficou compacto, centralizado e com fechamento pelo backdrop.
+
+## 2026-05-21 - Ajustes finais A11y e responsivo
+
+Pedido: remover rolagem do menu A11y, manter o botão fixo no meio da tela, corrigir Protanopia, trocar o ícone pelo SVG de acessibilidade, posicionar melhor o botão com menu aberto, iniciar sempre no topo ao atualizar, reforçar 100vw no mobile, alinhar abas da calculadora no tablet e revisar mojibake/pt-BR.
+
+Aplicação: o menu A11y foi compactado sem rolagem interna, o filtro de daltonismo deixou de afetar o botão fixo, o ícone foi atualizado, a página passa a iniciar no topo, o mobile foi protegido contra overflow horizontal, as abas aparecem lado a lado em tablet e a codificação dos arquivos alterados foi revisada.
+## 2026-06-08 - Contatos no ADM, calculadora em aba, commit e deploy
+
+Pedido: certificar que o banco de dados armazena os dados de contato do formulário, criar uma aba para mostrar as pessoas que preencheram o formulário e querem contato, criar outra aba para configurar a calculadora, checar ortografia pt-BR e mojibakes, fazer primeiro commit, criar repositório público `challenge-hss-fiap-1twdor-2025` na `main` e fazer deploy no Cloudflare com o mesmo nome.
+
+Aplicação: a API `/api/leads` passou a listar leads ativos do D1 por `GET`, o painel ADM ganhou abas `Contatos` e `Calculadora`, os textos pontuais com erro real foram corrigidos, o projeto foi revalidado com instalação, build e smoke HTTP local, a configuração Cloudflare foi renomeada para `challenge-hss-fiap-1twdor-2025`, o repositório público GitHub foi criado e o deploy Cloudflare ficou bloqueado por ausência de autenticação/token no ambiente.

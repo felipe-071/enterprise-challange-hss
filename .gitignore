@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Builds
+dist/
+.wrangler/
+.vite/
+*.zip
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambiente local
+.env
+.env.*
+!.env.example
+config/gemini.env
+.dev.vars
+
+# Sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# TypeScript incremental
+*.tsbuildinfo
