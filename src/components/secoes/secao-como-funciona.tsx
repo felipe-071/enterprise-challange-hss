@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { etapasProcesso } from "@/data/dadosLanding";
 import { CardSpotlight } from "@/components/ui/card-spotlight";
 import { ShimmerButton, CLASSE_BOTAO_CELULAR } from "@/components/ui/shimmer-button";
-import mockupIllustration from "@/assets/steps-section-ilustration.png";
+import mockupIllustration from "@/assets/steps-section-illustration.png";
 import iconeShieldCheck from "@/assets/icons/shield-check.svg";
 
 /* === ESTILOS DAS ETAPAS | inicio === */
